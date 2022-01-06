@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IntegralActivity">
+
+    <TextView
+        android:id="@+id/Integral_txt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="40dp"
+        android:text=""
+        android:textColor="?attr/colorOnBackground"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="177dp"
+        tools:layout_editor_absoluteY="338dp" />
+
+    <EditText
+        android:id="@+id/Integral_expression"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="280dp"
+        android:background="?attr/colorPrimary"
+        android:text="sqrt(1-x**2)"
+        android:textColor="?attr/colorOnPrimary" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Integral_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="340dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="?attr/colorSecondary"
+        android:text="Go"
+        android:textColor="?attr/colorOnSecondary" />
+
+    <TextView
+        android:id="@+id/Integral_box_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="240dp"
+        android:text="Function to Integrate:"
+        android:textColor="?attr/colorOnBackground"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/a_box_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="150dp"
+        android:text="From:"
+        android:textColor="?attr/colorOnBackground"/>
+
+    <EditText
+        android:id="@+id/Integral_a"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="180dp"
+        android:background="?attr/colorPrimary"
+        android:text="-1"
+        android:textColor="?attr/colorOnPrimary" />
+
+    <TextView
+        android:id="@+id/b_box_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="171dp"
+        android:text="To:"
+        android:textColor="?attr/colorOnBackground" />
+
+    <EditText
+        android:id="@+id/Integral_b"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="40dp"
+        android:background="?attr/colorPrimary"
+        android:text="1"
+        android:textColor="?attr/colorOnPrimary" />
+
+    <TextView
+        android:id="@+id/Limits_of_Int_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="120dp"
+        android:text="Limits of Integration:"
+        android:textSize="18sp"
+        android:textColor="?attr/colorOnBackground" />
+
+    <TextView
+        android:id="@+id/Result_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="410dp"
+        android:text="Result:"
+        android:textColor="?attr/colorOnBackground"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/Tutorial_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="340dp"
+        android:background="@drawable/roundstyle"
+        android:text="Tutorial" />
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:text="Integral Calculator"
+        android:textColor="?attr/colorOnBackground"/>
+
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MainTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/gray1</item> <!-- button color -->
+        <item name="colorOnPrimary">@color/black</item> <!-- Text color -->
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/mediumred</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Background -->
+        <item name ="android:background">@color/white</item>
+        <item name = "colorOnBackground">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="DarkTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/gray6</item> <!-- button color -->
+        <item name="colorOnPrimary">@color/white</item> <!-- Text color -->
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/pastelgreen</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Background -->
+        <item name ="android:background">@color/gray7</item>
+        <item name = "colorOnBackground">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/gray7</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="PastelTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/pastelcaty</item> <!-- button color -->
+        <item name="colorOnPrimary">@color/pastelpink</item> <!-- Text color -->
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/pastelgreen</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Background -->
+        <item name ="android:background">@color/white</item>
+        <item name = "colorOnBackground">@color/blue</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AutumnTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/mediumorange</item> <!-- button color -->
+        <item name="colorOnPrimary">@color/white</item> <!-- Text color -->
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/lightmediumorange</item>
+        <item name="colorOnSecondary">@color/darkdarkpink</item>
+        <!-- Background -->
+        <item name ="android:background">@color/pastelcaty</item>
+        <item name = "colorOnBackground">@color/darkdarkpink</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/pastelcaty</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="WineTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#cf573c</item> <!-- button color -->
+        <item name="colorOnPrimary">@color/white</item> <!-- Text color -->
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#752438</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Background -->
+        <item name ="android:background">#241527</item>
+        <item name = "colorOnBackground">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">#241527</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+</resources>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TutorialActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:text="How to use the Calculator"
+                android:textColor="?attr/colorOnBackground"
+                />
+
+            <TextView
+                android:id="@+id/example"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:text="Example:"
+                android:textColor="?attr/colorOnBackground"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="122dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:src="@drawable/example_integral">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/Limits"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:text="Setting the Limits of Integration:"
+                android:textColor="?attr/colorOnBackground"
+                />
+
+            <TextView
+                android:id="@+id/ahhr_ultimo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:textSize="16sp"
+                android:text="  To set the limits of integration, you should write them inside the text box just as shown below."
+                android:textColor="?attr/colorOnBackground"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:src="@drawable/limits_example"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/Function"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:text="Writting your Function:"
+                android:textColor="?attr/colorOnBackground"
+                />
+
+            <TextView
+                android:id="@+id/mais_um_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:textSize="16sp"
+                android:text="  Write the function you want to calculate as described below. This calculator only accepts one independent variable and it must always be named 'x'."
+                android:textColor="?attr/colorOnBackground"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:src="@drawable/function_example"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/function_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:textSize="16sp"
+                android:text="   The calculator supports the following operations:
+                             \n\n \t\t Math Operators:
+                             \n\n \t\t\t\t Adition: '+' '
+                             \n \t\t\t\t Subtraction: '-' '
+                             \n \t\t\t\t Multiplication: '*' '
+                             \n \t\t\t\t Division: '/'
+                             \n \t\t\t\t Exponentiation: '**'
+                             \n \t\t\t\t Square Root: 'sqrt(x)'
+                             \n\n \t\t Trigonometric Functions:
+                             \n\n \t\t\t\t Sine: 'sin(x)'
+                             \n \t\t\t\t Arcsine: 'asin(x)'
+                             \n \t\t\t\t Hyperbolic Sine: 'sinh(x)'
+                             \n \t\t\t\t Cosine: 'cos(x)'
+                             \n \t\t\t\t Arccosine: 'acos(x)'
+                             \n \t\t\t\t Hyperbolic cosine: 'cosh(x)'
+                             \n \t\t\t\t Tangent: 'tan(x)'
+                             \n \t\t\t\t Arctangent: 'atan(x)'
+                             \n \t\t\t\t Hyperbolic Tangent: 'tanh(x)'
+                             \n\n \t\t Exponential and Logarithm:
+                             \n\n \t\t\t\t Exponential: 'e**x'"
+                android:textColor="?attr/colorOnBackground">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/go_button_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:textSize="16sp"
+                android:text="   To get the result of the Integral press the 'Go' Button. Complex equations might take a while to calculate."
+                android:textColor="?attr/colorOnBackground"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:src="@drawable/go_example"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/Pro_tip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:text="Pro Tip:"
+                android:textColor="?attr/colorOnBackground"
+                />
+
+            <TextView
+                android:id="@+id/Pro_tip_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  To use the application as a regular calculator, set the limits of integration from 0 to 1 and input the calculations to be done inside the integral function text box."
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:textSize="16sp"
+                android:textColor="?attr/colorOnBackground"
+                />
+
+            <TextView
+                android:id="@+id/About"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:text="About:"
+                android:textColor="?attr/colorOnBackground"
+                />
+
+            <TextView
+                android:id="@+id/About_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" This Calculator allows you to check the solutions to simple one-dimension definite Integrals but can also be used as a regular calculator."
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:textSize="16sp"
+                android:textColor="?attr/colorOnBackground"
+                />
+
+            <TextView
+                android:id="@+id/About_txt_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  In order to achieve a greater computation speed, the calculator runs a python script which evaluates the string input and solves the Integral via the Simpson's algorithm."
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:textSize="16sp"
+                android:textColor="?attr/colorOnBackground"
+                />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

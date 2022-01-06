@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--APOLLO color pallete-->
+    <color name="white">#ebede9</color>
+    <color name="gray1">#c7cfcc</color>
+    <color name="gray2">#a8b5b2</color>
+    <color name="gray3">#819796</color>
+    <color name="gray4">#577277</color>
+    <color name="gray5">#394a50</color>
+    <color name="gray6">#202e37</color>
+    <color name="gray7">#151d28</color>
+    <color name="gray8">#10141f</color>
+    <color name="black">#090a14</color>
+    <color name="pink">#a23e8c</color>
+    <color name="red">#a53030</color>
+    <color name="orange">#be772b</color>
+    <color name="green">#75a743</color>
+    <color name="blue">#4f8fba</color>
+    <color name="pastelpink">#df84a5</color>
+    <color name="pastelcaty">#e7d5b3</color>
+    <color name="pastelorange">#da863e</color>
+    <color name="pastelyellow">#e8c170</color>
+    <color name="pastelgreen">#d0da91</color>
+    <color name="pastelblue">#a4dddb</color>
+    <color name="darkpurple">#402751</color>
+    <color name="darkred">#411d31</color>
+    <color name="darkorange">#602c2c</color>
+    <color name="darkgreen">#25562e</color>
+    <color name="darkblue">#253a5e</color>
+    <color name="mediumpink">#7a367b</color>
+    <color name="mediumred">#752438</color>
+    <color name="mediumorange">#884b2b</color>
+    <color name="mediumgreen">#468232</color>
+    <color name="mediumblue">#3c5e8b</color>
+    <color name="lightred">#cf573c</color>
+    <color name="darkdarkpink">#241527</color>
+    <color name = "lightmediumorange">#de9e41</color>
+
+</resources>

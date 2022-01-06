@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ColorsActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/roundstyle"
+        android:text="Main"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="156dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="208dp"
+        android:background="@drawable/roundstyle"
+        android:text="Dark"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="287dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="296dp"
+        android:background="@drawable/roundstyle"
+        android:text="Pastel"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="287dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="384dp"
+        android:background="@drawable/roundstyle"
+        android:text="Autumn"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="287dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="472dp"
+        android:background="@drawable/roundstyle"
+        android:text="Wine"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="287dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="40dp"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:text="Available Color Themes"
+        android:textColor="?attr/colorOnBackground">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginEnd="60dp"
+        android:gravity="center"
+        android:text="Warning: Changing the app's theme will take you back to the main menu"
+        android:textColor="?attr/colorOnBackground">
+    </TextView>
+
+    <!-- BOTOES PARA MOSTRAR AS CORES, EXTREMAMENTE INEFICIENTE MAS FOI O QUE ME LEMBREI -->
+
+    <!-- MainTheme -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="121dp"
+        android:backgroundTint="@color/white">
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="121dp"
+        android:layout_marginStart="228dp"
+        android:backgroundTint="@color/gray1">
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="121dp"
+        android:layout_marginStart="276dp"
+        android:backgroundTint="@color/black">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="324dp"
+        android:layout_marginTop="121dp"
+        android:backgroundTint="@color/mediumred">
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <!-- DarkTheme -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="208dp"
+        android:backgroundTint="@color/gray7">
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="208dp"
+        android:layout_marginStart="228dp"
+        android:backgroundTint="@color/gray6">
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="208dp"
+        android:layout_marginStart="276dp"
+        android:backgroundTint="@color/black">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="324dp"
+        android:layout_marginTop="208dp"
+        android:backgroundTint="@color/pastelgreen">
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <!-- PastelTheme -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="295dp"
+        android:backgroundTint="@color/white">
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="295dp"
+        android:layout_marginStart="228dp"
+        android:backgroundTint="@color/pastelcaty">
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="295dp"
+        android:layout_marginStart="276dp"
+        android:backgroundTint="@color/pastelpink">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="324dp"
+        android:layout_marginTop="295dp"
+        android:backgroundTint="@color/pastelgreen">
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <!-- AutumnTheme -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="382dp"
+        android:backgroundTint="@color/pastelcaty">
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="382dp"
+        android:layout_marginStart="228dp"
+        android:backgroundTint="@color/mediumorange">
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="382dp"
+        android:layout_marginStart="276dp"
+        android:backgroundTint="@color/darkdarkpink">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="324dp"
+        android:layout_marginTop="382dp"
+        android:backgroundTint="@color/lightmediumorange">
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <!-- WineTheme -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="469dp"
+        android:backgroundTint="#241527">
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="469dp"
+        android:layout_marginStart="228dp"
+        android:backgroundTint="#cf573c">
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="469dp"
+        android:layout_marginStart="276dp"
+        android:backgroundTint="@color/white">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="324dp"
+        android:layout_marginTop="469dp"
+        android:backgroundTint="#752438">
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+
+</RelativeLayout>
